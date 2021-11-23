@@ -14,13 +14,8 @@
         ></app-appareil>
     </ul>
     <!-- [disabled]="!isAuth" -->
-    <button
-        class="btn btn-success"
-        (click)="onAllumer()"
-    >
-        Tout Allumer
-    </button>
-    <button class="btn btn-danger" (click)="onEteindre()">
-        Tout éteindre
-    </button>
+    <button class="btn btn-success" (click)="onAllumer()"> Tout Allumer </button>
+    <button class="btn btn-danger" (click)="onEteindre()"> Tout éteindre </button>
+    <button class="btn btn-primary" (click)="onSave()">Save</button>
+    <button class="btn btn-info" (click)="onFetch()">charger</button>
 </div>
